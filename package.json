@@ -1,0 +1,22 @@
+{
+  "name": "gpt_test_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node chat.js",
+    "voice": "node chatapi.js",
+    "gem": "node gemini.js",
+    "stream": "node stream.js"
+  },
+  "author": "wtjang",
+  "license": "MIT",
+  "dependencies": {
+    "@google/generative-ai": "^0.2.0",
+    "dotenv": "^16.4.1",
+    "https": "^1.0.0",
+    "openai": "^4.28.4",
+    "streamed-chatgpt-api": "^1.0.7",
+    "typescript": "^5.3.3"
+  }
+}
